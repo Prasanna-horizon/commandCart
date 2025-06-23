@@ -15,23 +15,6 @@ This website is heavily inspired by warm vintage aesthetics and also features a 
 
 📱 Responsive design with alternating layout on desktop and vertical flow on mobile
 
-## Project Directory Structure
-
-
-📁commandCart/
-├── angular.json
-├── package.json
-├── README.md
-├── public/
-│ ├── ProtoMascot.png # Mascot image
-│ └── fonts/ # Custom fonts
-└── src/
-├── app/
-│ ├── app.html # Navbar and layout
-│ ├── app.css # Global styles
-│ └── ... # Other components
-├── assets/ # Additional assets
-└── main.ts # Entry point
 ## How You Can Run It Locally
 
 
