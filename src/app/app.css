@@ -1,0 +1,49 @@
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/Comfortaa.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ComfortaaBold';
+  src: url('/fonts/Comfortaa-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FONTS DESIGN */
+
+h1, h2, h3{
+    font-family: 'Nunito' !important;
+    color: #45322E;
+}
+
+.start-Shop{
+    font-family: 'Nunito';
+    color: #45322E;
+    text-decoration: none;
+}
+
+/* BODY-SECTION */
+
+.cozy-dog {
+  max-width: 80%;
+  border-radius: 12px;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
+  transition: transform 0.3s ease;
+  height: auto;
+}
+
+
+
