@@ -18,8 +18,20 @@ This website is heavily inspired by warm vintage aesthetics and also features a 
 ## Project Directory Structure
 
 
-📁<pre> ```plaintext COMMANDCART/ ├── angular.json ├── package.json ├── README.md ├── public/ │ ├── ProtoMascot.png # Mascot images │ └── fonts/ # Custom fonts (Comfortaa, Nunito) └── src/ ├── app/ │ ├── app.html # Navbar and main layout │ ├── app.css # Global styles │ └── ... # Other Angular components ├── assets/ # Images referenced in CSS/HTML └── main.ts # Angular app entry point ``` </pre>
-
+📁commandCart/
+├── angular.json
+├── package.json
+├── README.md
+├── public/
+│ ├── ProtoMascot.png # Mascot image
+│ └── fonts/ # Custom fonts
+└── src/
+├── app/
+│ ├── app.html # Navbar and layout
+│ ├── app.css # Global styles
+│ └── ... # Other components
+├── assets/ # Additional assets
+└── main.ts # Entry point
 ## How You Can Run It Locally
 
 
