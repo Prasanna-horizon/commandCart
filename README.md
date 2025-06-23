@@ -1,59 +1,64 @@
-# CommandCart
+# Command Cart
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.3.
 
-## Development server
+Command Cart is a cozy and charming e-commerce which is in early-stages which is built using AngularJS and Bootstrap for Front end!
+This website is heavily inspired by warm vintage aesthetics and also features a Unique mascot(Obviously for more appealing awsthetics).
 
-To start a local development server, run:
+## Features
 
-```bash
-ng serve
-```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🐾 Custom mascot illustrations in various moods
 
-## Code scaffolding
+💻 Built with Angular (latest version)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+🎨 Styled with Bootstrap 5 and custom fonts (Comfortaa, Nunito)
 
-```bash
-ng generate component component-name
-```
+📱 Responsive design with alternating layout on desktop and vertical flow on mobile
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Project Directory Structure
 
-```bash
-ng generate --help
-```
 
-## Building
+📁 COMMANDCART/
+├── src/
+│   ├── app/
+│   │   ├── app.html (Navbar and main layout)
+│   │   ├── app.css (Global styles)
+│   │   └── ...
+│   ├── public/
+│   │   ├── (Mascot images)
+│   │   └── fonts/
+├── public/ (Images referenced via public path)
+├── angular.json
+├── package.json
+└── README.md
 
-To build the project run:
+## How You Can Run It Locally
 
-```bash
-ng build
-```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+⚙️ Requirements
 
-## Running unit tests
+- Download Node.js
+- Install Angular CLI
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Open via your preffered IDE
 
-```bash
-ng test
-```
+- In Terminal
 
-## Running end-to-end tests
+npm install          # Install dependencies
+ng serve             # Run Angular dev server
 
-For end-to-end (e2e) testing, run:
+## Upcoming Updates (In Release Order)
 
-```bash
-ng e2e
-```
+- Product listings and filters
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+- Register and login feature
 
-## Additional Resources
+- Complete Cart, Checkout and Payment page
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+- Light / Dark Mode
+
+- Backend Integration
+
+- Algorithm for product recommendation
+
+## Made with dedication and love.
