@@ -1,8 +1,10 @@
-# Command Cart
+## Command Cart
 
 
 Command Cart is a cozy and charming e-commerce which is in early-stages which is built using AngularJS and Bootstrap for Front end!
 This website is heavily inspired by warm vintage aesthetics and also features a Unique mascot(Obviously for more appealing awsthetics).
+
+![CommandCart Feel](public/Proto.png)
 
 ## Features
 
@@ -23,18 +25,20 @@ This website is heavily inspired by warm vintage aesthetics and also features a 
 - Download Node.js
 - Install Angular CLI
 
-Open via your preffered IDE
+- Open this project via your preffered IDE.
 
-- In Terminal
+- Now in open terminal of your IDE and,
 
-npm install          # Install dependencies
-ng serve             # Run Angular dev server
+<pre> npm install          # For installing dependencies </pre>
+
+<pre> ng serve             # To run Angular dev server, which will be opened in http://localhost:4200/ </pre>
 
 ## Upcoming Updates (In Release Order)
 
-- Product listings and filters
 
 - Register and login feature
+
+- Product listings and filters
 
 - Complete Cart, Checkout and Payment page
 

@@ -1,33 +1,32 @@
-<div>
-        <!-- HOME -->
-  <div class="container-fluid intro">
-            <!-- ROW-1 -->
-    <div class="row align-items-center mb-5 g-5">
-      <div class="col-md-6">
-      <h1>Welcome to Command Cart!</h1>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam autem dolorum doloremque illum provident ratione explicabo error aspernatur debitis accusantium.</p>
-        <h1>
-          <a href="#" class="start-Shop">Start Shopping Now! <i class="bi bi-arrow-right"></i></a>
-        </h1>
-      </div>
-      <div class="col-md-6 mascot">
-        <img src="/MascotShowing App.png" alt="Dog" class="img-fluid cozy-dog" />
-      </div>
-    </div><br>
+            <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-lg fixed-top bg-body-tertiary">
 
-            <!-- ROW-2 -->
-    <div class="row align-items-center mb-5 g-5">
-      <div class="col-md-6 order-2 order-md-1 mascot">
-      <img src="/MascotRecivied.png" alt="HappyDog" class="img-fluid cozy-dog">
-      </div>
-      <div class="col-md-6 order-1 order-md-2">
-        <p>We are CommandCart Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit iure provident facilis! Aut laboriosam sit dolor repudiandae non vero excepturi. Fuga ex voluptate consequuntur. Dolorum corporis perspiciatis nobis deleniti nulla!</p>
-        <h1>
-          <a href="#" class="start-Shop">Get To Know About Us! <i class="bi bi-arrow-right"></i></a>
-        </h1>
-      </div>
-    </div>
+      <div class="container-fluid">
 
-  </div>
+        <a class="navbar-brand" href="#">Command Cart</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-</div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" routerLink="/" href="#">Home</a>
+            </li>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 search-bar" type="search" placeholder="Search" aria-label="Search"/>
+              <button class="btn btn-success custom-Invert" type="submit">Search</button>
+            </form>
+          </ul>
+
+          <div class="d-flex">
+              <a class="nav-link bi bi-person-circle" routerLink ='/login' href="/login"> Login</a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </nav>
+    <router-outlet></router-outlet>

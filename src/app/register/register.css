@@ -22,23 +22,25 @@
   font-style: normal;
 }
 
-/* NAVBAR */
+/* FONTS DESIGN */
 
-nav, .navbar {
-  font-family: 'Comfortaa', sans-serif;
-  background-color: #FDF8EE !important;
-  box-shadow: 0 8px 12px rgba(129, 86, 57, 0.25);
+h1, h2, h3, .redirect{
+    font-family: 'Nunito' !important;
+    color: #45322E;
+    text-decoration: none;
 }
 
-.navbar-brand{
-    font-family: 'ComfortaaBold', sans-serif !important;
-    color: #ab6848;
+/* BODY */
+
+.log{
+    padding-top: 5rem;
+    padding-left: 1rem;
 }
 
-.search-bar{
-    background-color: transparent !important;
-    /* box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25); */
-
+.actual-form{
+    background-color: #a9745b;
+    box-shadow: 0 0 4px 12px rgba(129, 86, 57, 0.25);
+    font-family: Comfortaa;
 }
 
 .custom-Invert{
@@ -53,19 +55,12 @@ nav, .navbar {
   border-color: #a1af89;
 }
 
-/* .dropdown-style, .dropdown-item{
+.input{
     background-color: transparent !important;
-    color: white;
-    /* border: none; 
-}*/
+    min-width: 30%;
+}
 
-/* .dropdown-divider{
-    border: none;
-} */
-
-/* .navbar-toggler-icon {
-  filter: invert(100%);
-}*/
-
-
-
+.img{
+    width: 96%;
+    margin-left: 7%;
+}
