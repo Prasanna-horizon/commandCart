@@ -23,12 +23,13 @@ This website is heavily inspired by warm vintage aesthetics and also features a 
 - Download Node.js
 - Install Angular CLI
 
-- Open via your preffered IDE.
+- Open this project via your preffered IDE.
 
-- In Terminal
+- Now in open terminal of your IDE and,
 
-- npm install          # Install dependencies
-- ng serve             # Run Angular dev server
+<pre> npm install          # For installing dependencies </pre>
+
+<pre> ng serve             # To run Angular dev server, which will be http://localhost:4200/ </pre>
 
 ## Upcoming Updates (In Release Order)
 
