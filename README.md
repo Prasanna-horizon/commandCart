@@ -23,12 +23,12 @@ This website is heavily inspired by warm vintage aesthetics and also features a 
 - Download Node.js
 - Install Angular CLI
 
-Open via your preffered IDE
+- Open via your preffered IDE.
 
 - In Terminal
 
-npm install          # Install dependencies
-ng serve             # Run Angular dev server
+- npm install          # Install dependencies
+- ng serve             # Run Angular dev server
 
 ## Upcoming Updates (In Release Order)
 
