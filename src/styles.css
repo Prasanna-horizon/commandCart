@@ -1,12 +1,51 @@
-/* You can add global styles to this file, and also import other style files */
 @import "bootstrap-icons/font/bootstrap-icons.css";
+
+/* FONTS */
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('/fonts/Comfortaa.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ComfortaaBold';
+  src: url('/fonts/Comfortaa-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('/fonts/Nunito.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* FONTS DESIGN */
+
+h1, h2, h3{
+    font-family: Comfortaa !important;
+    color: #45322E;
+}
+
+p{
+    font-family: 'Nunito' ;
+    font-size: 18px;
+}
+
+/* BODY w/ DESIGN */
 
 body {
   background-color: #FDF8EE;
-    /* background-image: url('/protoRef.jpg') !important; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
   width: 99%;
+}
+
+.paddin{
+  padding-top: 4.5rem;
 }

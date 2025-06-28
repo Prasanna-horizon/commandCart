@@ -67,5 +67,12 @@ nav, .navbar {
   filter: invert(100%);
 }*/
 
+.foot{
+  width: 101%;
+  font-family: 'Comfortaa';
+  color: #45322E;
+  text-align: center;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+}
 
 

@@ -1,0 +1,20 @@
+/* BODY-DESIGN */
+
+.know-Us{
+    padding-top: 4rem;
+}
+
+
+.cozy-dog {
+  max-width: 80%;
+  filter: drop-shadow(0 4px 12px rgba(0, 0, 0, 0.2));
+  height: auto;
+}
+
+/* .foot{
+  width: 101%;
+  font-family: 'Comfortaa';
+  color: #45322E;
+  text-align: center;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+} */

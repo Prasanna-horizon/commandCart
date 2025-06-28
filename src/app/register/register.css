@@ -1,40 +1,21 @@
-
-/* FONTS */
-
-@font-face {
-  font-family: 'Comfortaa';
-  src: url('/fonts/Comfortaa.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'ComfortaaBold';
-  src: url('/fonts/Comfortaa-Bold.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Nunito';
-  src: url('/fonts/Nunito.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
 /* FONTS DESIGN */
 
-h1, h2, h3, .redirect{
+.redirect{
     font-family: 'Nunito' !important;
     color: #45322E;
     text-decoration: none;
 }
 
+.redirect-Term{
+  font-family: 'Nunito' !important;
+  color: #45322E;
+}
+
 /* BODY */
 
-.log{
-    padding-top: 5rem;
+.paddin{
     padding-left: 1rem;
+    padding-bottom: 4rem;
 }
 
 .actual-form{
@@ -64,3 +45,12 @@ h1, h2, h3, .redirect{
     width: 96%;
     margin-left: 7%;
 }
+
+/* .foot{
+  width: 101%;
+  margin-top: 3.5%;
+  font-family: 'Comfortaa';
+  color: #45322E;
+  text-align: center;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+} */
