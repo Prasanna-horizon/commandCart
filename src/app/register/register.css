@@ -3,7 +3,7 @@
 .redirect{
     font-family: 'Nunito' !important;
     color: #45322E;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .redirect-Term{
@@ -45,12 +45,3 @@
     width: 96%;
     margin-left: 7%;
 }
-
-/* .foot{
-  width: 101%;
-  margin-top: 3.5%;
-  font-family: 'Comfortaa';
-  color: #45322E;
-  text-align: center;
-  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
-} */

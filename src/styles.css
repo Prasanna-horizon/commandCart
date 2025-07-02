@@ -35,6 +35,12 @@ p{
     font-size: 18px;
 }
 
+.redirect{
+    font-family: 'Nunito' !important;
+    color: #45322E;
+    text-decoration: none;
+}
+
 /* BODY w/ DESIGN */
 
 body {

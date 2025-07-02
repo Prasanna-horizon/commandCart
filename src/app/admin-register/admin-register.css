@@ -1,15 +1,31 @@
+/* FONTS DESIGN */
+
+.redirect{
+    font-family: 'Nunito' !important;
+    color: #45322E;
+    text-decoration: none;
+}
 
 /* BODY */
 
 .paddin{
     padding-left: 1rem;
-    padding-bottom: 11rem;
+    padding-bottom: 4rem;
 }
 
 .actual-form{
     background-color: #a9745b;
     box-shadow: 0 0 4px 12px rgba(129, 86, 57, 0.25);
     font-family: Comfortaa;
+}
+
+.selector{
+    padding: 3px;
+    background-color: transparent;
+    color: #433936;
+    border: 1px solid #DEE2E6;
+    border-color: #DEE2E6;
+    border-radius: 3px;
 }
 
 .custom-Invert{
@@ -30,6 +46,6 @@
 }
 
 .img{
-    width: 75%;
-    margin-left: 10%;
+    width: 96%;
+    margin-left: 7%;
 }

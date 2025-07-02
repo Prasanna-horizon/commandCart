@@ -53,26 +53,15 @@ nav, .navbar {
   border-color: #a1af89;
 }
 
-/* .dropdown-style, .dropdown-item{
-    background-color: transparent !important;
-    color: white;
-    /* border: none; 
-}*/
-
-/* .dropdown-divider{
-    border: none;
-} */
-
-/* .navbar-toggler-icon {
-  filter: invert(100%);
-}*/
+footer{
+  width: 101%;
+  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
+}
 
 .foot{
-  width: 101%;
   font-family: 'Comfortaa';
   color: #45322E;
   text-align: center;
-  box-shadow: 0 -6px 12px rgba(0, 0, 0, 0.15);
 }
 
 

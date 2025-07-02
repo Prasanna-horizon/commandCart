@@ -5,6 +5,9 @@ import { Register } from './register/register';
 import { About } from './about/about';
 import { Terms } from './terms/terms';
 import { Products } from './products/products';
+import { AdminTerms } from './admin-terms/admin-terms';
+import { AdminLogin } from './admin-login/admin-login';
+import { AdminRegister } from './admin-register/admin-register';
 
 export const routes: Routes = [
     {
@@ -29,5 +32,17 @@ export const routes: Routes = [
 
     {
         path:'products', component: Products
+    },
+
+    {
+        path:'admin-terms', component: AdminTerms
+    },
+
+    {
+        path:'admin-login', component: AdminLogin
+    },
+
+    {
+        path:'admin-register', component: AdminRegister
     }
 ];
